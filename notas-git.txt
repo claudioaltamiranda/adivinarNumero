@@ -12,3 +12,10 @@ git log --oneline
 git status
 
 comentario en Master: esto sucede en la rama master 
+HEAD --> puntero 
+
+git commit -am "XXXX"   // hace el git add + el commit (solo se pueden
+                        // usar a partir de la segunda vez)
+git checkout master 
+
+Comentario de Claudio: esto es en la rama Claudio
