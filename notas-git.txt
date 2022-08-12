@@ -3,3 +3,6 @@ git init // para inicializar el repositorio
 
 git add .                         // agrega todos los archivos
 git commit -m "Primer commit"     // general el punto de checkout 
+
+                                  // se pueden hacer varios git add 
+
