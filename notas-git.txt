@@ -1,0 +1,5 @@
+git init // para inicializar el repositorio 
+         // general la carpeta oculta .git 
+
+git add .                         // agrega todos los archivos
+git commit -m "Primer commit"     // general el punto de checkout 

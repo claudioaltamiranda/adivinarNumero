@@ -1,0 +1,111 @@
+/* RESET */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  width: 800px;
+  height: 100vh;
+  border: 5px solid blue;
+  margin: 0 auto;
+
+  position: relative;
+}
+
+header,
+main {
+  background-color: rgba(0, 0, 255, 0.52);
+}
+
+header {
+  border-bottom: 5px solid blue;
+  width: 100%;
+  height: 40%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btnReintentar {
+  margin-top: 1rem;
+  margin-left: 1rem;
+  align-self: flex-start;
+}
+
+.titulo {
+  font-size: 5rem;
+  font-weight: bold;
+}
+
+main {
+  width: 100%;
+  height: 60%;
+}
+
+.numero {
+  border: 5px solid black;
+  background-color: white;
+  font-size: 2rem;
+  font-weight: bold;
+  width: 20%;
+  height: 4rem;
+
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  transform: translate(-50%, -50%);
+
+  z-index: 1000;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.izquierda,
+.derecha {
+  width: 50%;
+  height: 100%;
+  float: left;
+  display: flex;
+  flex-direction: column;
+}
+
+.izquierda {
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#inputNumero {
+  height: 3rem;
+  width: 50%;
+  padding: 0.5rem;
+  text-align: right;
+  font-size: 2rem;
+}
+
+button {
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 0.5rem 2rem;
+}
+
+.derecha {
+  padding-left: 3rem;
+  justify-content: space-evenly;
+}
+
+.derecha p,
+.derecha span {
+  font-size: 2rem;
+}
+
+.derecha span {
+  font-weight: bold;
+}
