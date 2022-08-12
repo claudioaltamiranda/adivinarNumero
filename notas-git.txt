@@ -11,11 +11,26 @@ git log --oneline
 
 git status
 
-comentario en Master: esto sucede en la rama master 
 HEAD --> puntero 
 
 git commit -am "XXXX"   // hace el git add + el commit (solo se pueden
                         // usar a partir de la segunda vez)
 git checkout master 
 
-Comentario de Claudio: esto es en la rama Claudio
+git checkout rama // ir a rama 
+
+git merge rama // mezcla rama con la actual 
+
+https://github.com/claudioaltamiranda/adivinarNumero.git
+…or create a new repository on the command line
+echo "# adivinarNumero" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/claudioaltamiranda/adivinarNumero.git
+git push -u origin main
+…or push an existing repository from the command line
+git remote add origin https://github.com/claudioaltamiranda/adivinarNumero.git
+git branch -M main
+git push -u origin main
