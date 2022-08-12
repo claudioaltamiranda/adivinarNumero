@@ -10,3 +10,5 @@ git log
 git log --oneline
 
 git status
+
+comentario en Master: esto sucede en la rama master 
